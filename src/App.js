@@ -4,7 +4,7 @@ function App() {
   const [showAppContainer, setShowAppContainer] = useState(false);
 
   return (
-    <div style={{ position: "relative" }}>
+    <div>
       <header className="App-header">
         <img
           data
