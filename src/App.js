@@ -14,6 +14,7 @@ function App() {
             height: "10vmin",
             position: "absolute",
             bottom: "20px",
+            zIndex: 1,
             right: "20px",
             cursor: "pointer",
           }}
@@ -28,6 +29,7 @@ function App() {
             style={{
               backgroundColor: "#e2d6f8",
               width: "350px",
+              zIndex: 1,
               minHeight: "400px",
               position: "absolute",
               bottom: "100px",
