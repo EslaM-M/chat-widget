@@ -21,6 +21,7 @@ function App() {
           alt="logo"
           onClick={() => {
             setShowAppContainer(!showAppContainer);
+            console.log( localStorage.get("lastOrganizationUrl"));
             console.log("here is the app container", showAppContainer);
           }}
         />
